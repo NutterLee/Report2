@@ -8,35 +8,20 @@
 
 SanDisk  
 
-SanDisk is engaged in the manufacture and distribution of hardware storage products. It offers flash storage card products for a broad range of electronic systems and digital devices. Technologies used for developing flash storage card products include flash memory, controller, and firmware. The company provides its products to the mobile phone, consumer electronics, and computing markets.  
-
 Kingston Technology  
-
-Kingston Technology is one of the top manufacturers of memory modules, such as printed circuit boards with dynamic RAM, which increases the speed and capacity of computers and printers. The company focuses on capitalizing the potential markets by developing better products following a sustainable growth strategy.  
 
 Lexar (Micron Consumer Products Group)  
 
-Lexar is a fully owned subsidiary of Micron Consumer Products Group. Micron Consumer Products Group is the largest manufacturer of memory chips in the world. Lexar's product lineup includes memory cards, USB flash drives, readers, and storage devices for original equipment manufacturers and retailers.  
-
 ADATA Technology  
-
-ADATA Technology is a Taiwanese storage and memory device manufacturer. Its product portfolio includes USB drives, dynamic RAM modules, and memory cards. It also caters to express cards, solid-state drive (SSD), and digital frame market.  
 
 Transcend Information  
 
-Transcend Information designs, develops, manufactures, and sells memory modules, flash cards, USB drives, external hard drives, multimedia products, and accessories. The company makes consumer products like memory cards, adapters, portable devices, USB flash drives, external hard drives, SSDs, digital photo frames, memory modules, digital music players, card readers, and wireless and multimedia products.  
-
 Samsung Group  
-
-Samsung Group is one of the world's largest semiconductor manufacturers and is the leading electronics company in South Korea. Samsung Electronics, a subsidiary of Samsung Group, is a pioneer in electronic products. It manufactures different consumer devices that include DVD players, digital still cameras, digital TVs, color monitors, computers, printers, and LCD panels. It offers semiconductors like static RAM, dynamic RAM, display drivers, and flash memory.  
 
 Sony  
 
-Sony is a major vendor in the memory cards market. It focuses on consumer and professional electronics in divisions such as entertainment, gaming, and financial service sectors. It is among the top 20 worldwide semiconductor sales leaders. It has segmented itself into three sectors, namely growth drivers, stable profit generators, and laggards.  
-
 Toshiba  
 
-Toshiba is involved in the R&D, sales, and manufacture of electronic and electric products. It sells storage devices under the electronic devices business domain. The company's technology leadership, product diversification, and broad customer portfolio enabled it to become one of the leading players in the global memory cards market. One of the major growth strategies of the company is to expand its product portfolio continuously. The company primarily focuses on its R&D and engineering, and continuously invests to leverage its technology for better sales.  
 
 ### types of memory  
 
@@ -47,12 +32,51 @@ Graphics Double Data Rate Synchronous Dynamic RAM (GDDR SDRAM, GDDR2, GDDR3, GDD
 
 Now most of personal computers use DDR3 or DDR4(or their low-voltage version) as main memory, and some computers use GDDR4 or GDDR5 in thier GPU.  
 
+### Emerging Memories  
+
+3D Xpoint  
+MRAM
+
 
 ### Features  
 
 ### Pros&Cons  
 
+Pros  
+  
+High speed  
+Temporary memory (volatile)  
+Faster than secondary storage  
+Fastest type of memory in a computer.  
+Consumes less power compared to disk drives hence increasing battery life.  
+
+Cons  
+
+Slower than the CPU cache  
+Not cost friendly  
+Volatile  
+Space limited  
+
 ## Key indicators  
+
+1. CAS Latency  
+
+CAS Latency (Column Access Strobe Latency), or tCL, specifies the number of clock cycles between the column strobe signal and when data is available on the output pins. During sequential memory accesses, the row remains activated and only the column changes, which means that the time required to change columns is critical to overall memory performance. CAS Latency, often abbreviated CL, is the most commonly quoted timing parameter and the most important memory timing parameter with respect to overall performance.
+
+2. RAS to CAS Delay  
+
+RAS to CAS Delay (Row Access Strobe to CAS Delay), or tRCD, specifies the number of clock cycles between the time a row is activated by the row strobe until the column in that row (which defines a memory cell or bit) can be read or written. When memory is accessed sequentially, the row is already active and only the column changes, so tRCD has little impact on performance. But when memory is accessed randomly, the memory controller must deactivate the old row and activate a new row, which incurs a substantial timing penalty. In that situation, a fast tRCD contributes to faster memory performance.
+
+3. RAS Precharge Delay  
+
+RAS Precharge Delay, or tRP, specifies the time required to complete one row access, deactivate that row, reactivate the next row, and begin the next row access. The time required to switch rows and select the next memory cell is therefore the sum of tRP and tRCD. For sequential memory accesses, a slow tRP has little effect; for random memory accesses, a fast tRP contributes significantly to overall memory performance.
+
+4. Precharge Delay
+
+Precharge Delay, or tRAS, specifies the number of clock cycles between the time a row is accessed (activated) and when data can be read from that row. Once the row is activated, data can be read from that row without further overhead until the end of the row is reached, so tRAS ordinarily has little effect on overall memory performance. As with any timing parameter, setting tRAS incorrectly can reduce system stability.
+
+These four memory timing parameters are always listed in the order given, separated by hyphens. For example, a particular PC3200 DDR-SDRAM module may list timings of 2-2-2-5, which means that module is designed to operate with timings of two clock cycles for CAS, tRCD, and tRP, and five clock cycles for tRAS. Similarly, a PC2-3200 DDR2-SDRAM module might list timings of 5-5-5-12, which means that module is designed to operate with timings of 5 clock cycles for CAS, tRCD, and tRP, and 12 clock cycles for tRAS. (Note that DDR and DDR2 timings are not directly comparable, because DDR2 operates on much shorter clock cycles.)
+
 
 ### What,how to measure,scope  
 
