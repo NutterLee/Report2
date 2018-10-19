@@ -78,11 +78,21 @@ Precharge Delay, or tRAS, specifies the number of clock cycles between the time 
 These four memory timing parameters are always listed in the order given, separated by hyphens. For example, a particular PC3200 DDR-SDRAM module may list timings of 2-2-2-5, which means that module is designed to operate with timings of two clock cycles for CAS, tRCD, and tRP, and five clock cycles for tRAS. Similarly, a PC2-3200 DDR2-SDRAM module might list timings of 5-5-5-12, which means that module is designed to operate with timings of 5 clock cycles for CAS, tRCD, and tRP, and 12 clock cycles for tRAS. (Note that DDR and DDR2 timings are not directly comparable, because DDR2 operates on much shorter clock cycles.)
 
 
-### What,how to measure,scope  
+###  How to measure performance
+
+we can use software like AIAD64
 
 ## My comment  
 
-todo:eg. how to tradeoff
+1. Memory provides a fast way to swap data in CPU and disks, so if possible choosing a memory with bigger volume and faster speed always helps. 
+
+2. We can use multiply memories to form double channel to speed up system.  
+
+3. The speed gap between CPU cache and memory is still large.
+
+4. If the cost of memory drops, it's a good idea to use memory as disk, but we need to take care of power-off.
+
 
 ### Reference 
 
+1. https://www.cnet.com/how-to/test-your-ram-with-windows-memory-diagnostic-tool/
