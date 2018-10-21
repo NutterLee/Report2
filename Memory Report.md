@@ -38,8 +38,6 @@ Now most of personal computers use DDR3 or DDR4(or their low-voltage version) as
 MRAM
 
 
-### Features  
-
 ### Pros&Cons  
 
 Pros  
@@ -95,4 +93,6 @@ we can use software like AIAD64
 
 ### Reference 
 
-1. https://www.cnet.com/how-to/test-your-ram-with-windows-memory-diagnostic-tool/
+1. https://www.cnet.com/how-to/test-your-ram-with-windows-memory-diagnostic-tool/  
+2. https://en.wikipedia.org/wiki/3D_XPoint  
+
