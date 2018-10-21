@@ -25,10 +25,10 @@ Toshiba
 
 ### types of memory  
 
-Synchronous Dynamic RAM (SDRAM)
-Single Data Rate Synchronous Dynamic RAM (SDR SDRAM)
-Double Data Rate Synchronous Dynamic RAM (DDR SDRAM, DDR2, DDR3, DDR4)
-Graphics Double Data Rate Synchronous Dynamic RAM (GDDR SDRAM, GDDR2, GDDR3, GDDR4, GDDR5)
+Synchronous Dynamic RAM (SDRAM)  
+Single Data Rate Synchronous Dynamic RAM (SDR SDRAM)  
+Double Data Rate Synchronous Dynamic RAM (DDR SDRAM, DDR2, DDR3, DDR4)  
+Graphics Double Data Rate Synchronous Dynamic RAM (GDDR SDRAM, GDDR2, GDDR3, GDDR4, GDDR5)  
 
 Now most of personal computers use DDR3 or DDR4(or their low-voltage version) as main memory, and some computers use GDDR4 or GDDR5 in thier GPU.  
 
