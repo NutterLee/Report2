@@ -84,7 +84,7 @@ we can use software like AIAD64
 
 1. Memory provides a fast way to swap data in CPU and disks, so if possible choosing a memory with bigger volume and faster speed always helps. 
 
-2. We can use multiply memories to form double channel to speed up system.  
+2. We can use multiple memories to form double channel to speed up system.  
 
 3. The speed gap between CPU cache and memory is still large.
 
